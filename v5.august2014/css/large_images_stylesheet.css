@@ -69,11 +69,12 @@ body {
 	background-image: url(../images/coding_screen.png);
 	background-attachment: fixed;
 	background-repeat: none;
-	background-size: cover;
+	/*background-size: cover;*/
 }
 
 #page-content {
 	background-color: rgba(0,0,0,.9);
+	padding-bottom: 100px;
 }
 
 /* actual page content */
