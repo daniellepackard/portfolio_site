@@ -1,0 +1,181 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* index stylesheet */
+
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* makes sure that everything is 100% height */
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	color: rgba(255,255,255,.6);
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	background-image: url(../images/coding_screen.png);
+	background-attachment: fixed;
+	background-repeat: none;
+	background-size: cover;
+}
+
+#page-content {
+	background-color: rgba(0,0,0,.9);
+}
+
+/* actual page content */
+#page-content {
+	text-align: center;
+}
+
+.large_image {
+	border: 1px solid #fff;
+	padding: 10px;
+}
+
+#page-content h1 {
+	font-family: 'Lobster Two', cursive;
+	font-weight: 400;
+	font-size: 2em;
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+
+#page-content h2 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 1em;
+	margin-bottom: 15px;
+	color: rgba(255,255,255,.4);
+}
+
+#page-content h3 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: .6em;
+	margin-bottom: 15px;	
+}
+
+h3 + p {
+	text-align: left;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: .9em;
+	letter-spacing: 1px;
+	line-height: 1.2em;
+	padding-bottom: 15px;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+h3 + p + p {
+	text-align: left;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: .9em;
+	letter-spacing: 1px;
+	line-height: 1.2em;
+	padding-bottom: 15px;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+span {
+	font-weight: 400;
+}
+
+/* page social icons*/
+.page_social_icons {
+	margin-top: 50px;
+	bottom: 30px;
+}
+
+.page_social_icons img {
+	max-width: 40px;
+}
+
+.page_social_icons img:hover {
+	background-color: rgba(255,255,255,.2);
+}
+
+/* footer */
+footer {
+	clear: both;
+	text-align: center;
+	margin-top: 30px;
+	padding-bottom: 15px;
+	color: rgba(255,255,255,.8);
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: .6em; 
+}
+
+/* navigation links */
+a  {
+	text-decoration: none;
+}
+
+a:link  {
+	color: #fff;
+}
+
+a:visited  {
+	color: rgb(105,105,105); /* dim gray */
+}
+
+a:hover  {
+	color: #fff;
+}
