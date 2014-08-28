@@ -1,0 +1,171 @@
+/* index stylesheet */
+
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* makes sure that everything is 100% height */
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+}
+
+/* header */
+header {
+	background-color: #000;
+	width: 100%;
+	height: 399px;
+	margin-bottom: 30px;
+}
+
+header p {
+	text-align: center;
+}
+
+/* name */
+.name {
+	clear: both;
+	float: left;
+	width: 80%;
+	padding: 2%;
+	margin-left: 10%;
+}
+
+.name h1 {
+	color: #000; 
+	font-family: 'Lobster Two', cursive;
+	font-weight: 400;
+	font-size: 2.2em;
+	letter-spacing: 5px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #000;
+}
+
+.name h2 {
+	color: #000;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 1.3em;
+	letter-spacing: 2px;
+	padding-top: 15px;
+}
+
+/* headshot */
+.photo {
+	clear: both;
+	float: left;
+	padding: 2%;
+	margin-left: 10%;
+}
+
+/* bio */
+.bio {
+	float: left;
+	width: 45%;
+	padding: 2%;
+	margin-left: 10%;
+	color: #000;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: .9em;
+	letter-spacing: 1px;
+	line-height: 1.2em;
+	padding-top: 15px;
+}
+
+.bio p {
+	margin-bottom: 15px;
+}
+
+span {
+	font-weight: 300;
+	font-style: italic;
+}
+
+.bold {
+	font-style: normal;
+	font-weight: 400;
+}
+
+/* social icons */
+.bio_social_icons {
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+.bio_social_icons img {
+	max-width: 40px;
+}
+
+.bio_social_icons img:hover {
+	background-color: rgba(0,0,0,.2);
+}
+
+/* contact section */
+.contact_section  {
+	text-align: center;
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 100px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: .9em;
+	line-height: 1.2em;
+	letter-spacing: 1px;	
+}
+
+.contact_section ul {
+	margin-top: 15px;
+}
+
+.contact_section li  {
+	list-style-type: none;
+	font-size: 1em;
+}
+
+h3 {
+	color: #000; 
+	font-family: 'Lobster Two', cursive;
+	font-weight: 400;
+	font-size: 2em;
+	letter-spacing: 5px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #000;
+}
+
+/* footer */
+footer {
+	clear: both;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	color: #000;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: .6em; 
+}
+
+/* navigation links */
+a  {
+	text-decoration: none;
+}
+
+a:link  {
+	color: #000;
+}
+
+a:visited  {
+	color: rgb(105,105,105); /* dim gray */
+}
+
+a:hover  {
+	color: rgb(232,39,113);
+}
